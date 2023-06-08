@@ -74,16 +74,6 @@ footer div {
   padding-bottom: 300px;
 }
 
-.fade-in {
-  opacity: 0;
-  transition: opacity 1s ease-in;
-}
-
-.fade-in.appear {
-  opacity: 1;
-}
-
-
 /* iPad view */
 @media (max-width: 1050px) {
   main .logo img {
