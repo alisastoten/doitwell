@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  background-color: #101010;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(151, 151, 151); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #353535; 
+/*   border-radius: 10px; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000000; 
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background-color: #383b50;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: rgb(255, 255, 255);
+  background: #383b50;
+}
+
+body {  /* for it to be on one screen */
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: #101010;
+}
+
+main .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .logo img {
+  width: 500px;
+  height: auto;
+  margin-top: 110px;;
+}
+
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'raleway';
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 300px;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+
+/* iPad view */
+@media (max-width: 1050px) {
+  main .logo img {
+    width: 80%;
+    height: auto;
+    margin-top: 250px;
+  }
+  footer .year-coming {
+    padding-top: 190px;
+  }
+}
+
+
+/* iPhone view */
+@media (max-width: 520px) {
+  main .logo img {
+    width: 100%;
+    height: auto;
+    margin-top: 250px;
+  }
+  footer .year-coming {
+    padding-top: 90px;
+  }
+}
+
+
+
+
+
