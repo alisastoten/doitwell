@@ -1,3 +1,3 @@
 # doitwell
 
-A page for a comapny
+A page for a company
