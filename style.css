@@ -3,7 +3,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
-  background-color: #101010;
+  background-color: #100D19;
 }
 
 html {
@@ -15,39 +15,26 @@ html {
   width: 10px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
-  background: rgb(151, 151, 151); 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #353535; 
-/*   border-radius: 10px; */
+  background: rgb(69, 68, 76); 
 }
 
-/* Handle on hover */
+::-webkit-scrollbar-thumb {
+  background: #c3c351; 
+}
+
 ::-webkit-scrollbar-thumb:hover {
   background: #000000; 
 }
 
 ::selection {
   color: rgb(255, 255, 255);
-  background-color: #383b50;
+  background-color: #2a2f53;
 }
 
 ::-moz-selection { /* Code for Firefox */
   color: rgb(255, 255, 255);
-  background: #383b50;
-}
-
-body {  /* for it to be on one screen */
-  position:fixed;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  background-color: #101010;
+  background: #2a2f53;
 }
 
 main .logo {
@@ -57,7 +44,7 @@ main .logo {
 }
 
 main .logo img {
-  width: 500px;
+  width: 600px;
   height: auto;
   margin-top: 110px;;
 }
